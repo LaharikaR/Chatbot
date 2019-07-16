@@ -1,0 +1,869 @@
+{
+  "name": "My details",
+  "intents": [
+    {
+      "intent": "OtherQuestion",
+      "examples": []
+    },
+    {
+      "intent": "HowAreYou",
+      "examples": [
+        {
+          "text": "I am good. how are you"
+        },
+        {
+          "text": "I am doing good. how about you"
+        },
+        {
+          "text": "I am doing well. how are you"
+        },
+        {
+          "text": "How are you doing"
+        },
+        {
+          "text": "how are you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Generalgreetings",
+      "examples": [
+        {
+          "text": "I am doing well"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "Good Evening!"
+        },
+        {
+          "text": "Good Morning!"
+        },
+        {
+          "text": "Good Afternoon!"
+        },
+        {
+          "text": "Good Afternoon"
+        },
+        {
+          "text": "Good Morning"
+        },
+        {
+          "text": "good. Thank you"
+        }
+      ],
+      "description": "Answering to hi, hello"
+    },
+    {
+      "intent": "Yourself",
+      "examples": [
+        {
+          "text": "Tell about yourself"
+        },
+        {
+          "text": "Tell me about yourself"
+        },
+        {
+          "text": "Could you please tell me more about yourself"
+        }
+      ]
+    },
+    {
+      "intent": "Masters",
+      "examples": [
+        {
+          "text": "Which college are you studying in"
+        },
+        {
+          "text": "you are in which college"
+        }
+      ],
+      "description": "Masters details"
+    },
+    {
+      "intent": "goodBye",
+      "examples": [
+        {
+          "text": "Take care"
+        },
+        {
+          "text": "good thank you"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Good Bye"
+        },
+        {
+          "text": "That's all I wanted to ask"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Education",
+      "examples": [
+        {
+          "text": "What's the highest education you have completed"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "HighestEducation",
+      "examples": [
+        {
+          "text": "What is you highest level of education"
+        }
+      ]
+    },
+    {
+      "intent": "Resume",
+      "examples": [
+        {
+          "text": "curriculum vitae"
+        },
+        {
+          "text": "Can I see your resume"
+        },
+        {
+          "text": "Resume"
+        },
+        {
+          "text": "Where can find your resume"
+        },
+        {
+          "text": "could you please share your resume"
+        },
+        {
+          "text": "CV"
+        },
+        {
+          "text": "share your cv"
+        },
+        {
+          "text": "cv/resume"
+        }
+      ],
+      "description": "Link to resume"
+    },
+    {
+      "intent": "HaveQues",
+      "examples": [
+        {
+          "text": "Question"
+        },
+        {
+          "text": "I have few questions"
+        },
+        {
+          "text": "I need more information"
+        }
+      ]
+    },
+    {
+      "intent": "Graduation",
+      "examples": [
+        {
+          "text": "When are finishing your Masters"
+        },
+        {
+          "text": "When are you completing your course"
+        },
+        {
+          "text": "When are you graduating"
+        }
+      ]
+    },
+    {
+      "intent": "StartWorking",
+      "examples": [
+        {
+          "text": "When is the best time can join the company"
+        },
+        {
+          "text": "From when are you available to work"
+        },
+        {
+          "text": "When can you start working"
+        }
+      ]
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "help"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "need help"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Visa",
+      "examples": [
+        {
+          "text": "What is your work authorization"
+        },
+        {
+          "text": "What is you visa status"
+        },
+        {
+          "text": "Are you eligible to work in the USA"
+        },
+        {
+          "text": "Will you require sponsorship now or in future"
+        },
+        {
+          "text": "Visa status"
+        }
+      ]
+    },
+    {
+      "intent": "skills",
+      "examples": [
+        {
+          "text": "What are your skills"
+        },
+        {
+          "text": "Skills"
+        }
+      ]
+    },
+    {
+      "intent": "Experience",
+      "examples": [
+        {
+          "text": "Whats your work experience"
+        },
+        {
+          "text": "Tell me something about  your experience"
+        },
+        {
+          "text": "How much experience do you have"
+        },
+        {
+          "text": "do you have any experience"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "AreYouLaharika",
+      "examples": [
+        {
+          "text": "What is your name"
+        },
+        {
+          "text": "Are you Laharika"
+        },
+        {
+          "text": "Laharika?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Contact",
+      "examples": [
+        {
+          "text": "Can you share your contact details?"
+        },
+        {
+          "text": "How can I contact you"
+        },
+        {
+          "text": "What is your contact information"
+        },
+        {
+          "text": "What is best number to reach you"
+        },
+        {
+          "text": "Can you share your email ID"
+        }
+      ]
+    },
+    {
+      "intent": "gender",
+      "examples": [
+        {
+          "text": "are a female"
+        },
+        {
+          "text": "what is your gender"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "company",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "TCS",
+          "synonyms": [
+            "Tata consultancy services",
+            "TCS",
+            "TCS experience",
+            "Tata consultancy services experience"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Student Employee",
+          "synonyms": [
+            "Student Employee",
+            "Marist Experience",
+            "part-time",
+            "work at college"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am currently working as student employee in Information technology department at Marist College where I am mainly responsible testing the learning management system application. I am currently working on a Chatbot for the college website which would help students and faculty with there general queries."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1562763806411",
+      "metadata": {},
+      "conditions": "@company:(Student Employee)",
+      "dialog_node": "node_4_1562764680418",
+      "previous_sibling": "node_3_1562764476342"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I have about 2 years of experience in TCS, India. I was mainly responsible for enhancement of web application of a banking client using C#, SQL and generating reports using Tableau depending the adhoc request from the clients. I am currently working as student employee in Information technology department at Marist College where I am mainly responsible testing the learning management system application. I am currently working on a Chatbot for the college website which would help students and faculty with there general queries."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1562763806411",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_5_1562766273249",
+      "previous_sibling": "node_4_1562764680418"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I have about 2 years of experience in TCS, India where I was mainly responsible for enhancement of web application of a banking client using C#, SQL and generating reports using Tableau depending the adhoc request from the clients."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1562763806411",
+      "metadata": {},
+      "conditions": "@company:TCS",
+      "dialog_node": "node_3_1562764476342"
+    },
+    {
+      "type": "standard",
+      "title": "How are you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am doing good."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#HowAreYou",
+      "dialog_node": "node_1_1562689939454",
+      "previous_sibling": "node_1_1562094063043"
+    },
+    {
+      "type": "standard",
+      "title": "Any other question",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please do let me know if you need more information. Here is a link to  <a  href=\"https://laharikaravularesume.000webhostapp.com/Resume_LaharikaRavula.pdf\">my resume</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#OtherQuestion",
+      "dialog_node": "node_6_1562618479814",
+      "previous_sibling": "node_3_1562618364286"
+    },
+    {
+      "type": "standard",
+      "title": "VisaStatus",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am currently on F1-visa status and I am eligible for STEM OPT which means I would not require sponsorship for next 3 years."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Visa",
+      "dialog_node": "node_2_1562094136019",
+      "previous_sibling": "node_1_1562685158951"
+    },
+    {
+      "type": "standard",
+      "title": "Gender",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am female. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#gender",
+      "dialog_node": "node_10_1562679285815",
+      "previous_sibling": "node_6_1562618479814"
+    },
+    {
+      "type": "standard",
+      "title": "Graduation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am graduating in Dec 2019."
+              },
+              {
+                "text": "I would be graduating in December 2019"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Graduation",
+      "dialog_node": "node_1_1562617530522",
+      "previous_sibling": "node_3_1562095861313"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1562939313583"
+    },
+    {
+      "type": "standard",
+      "title": "Experience",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Experience",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1562763806411",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1562763456086"
+    },
+    {
+      "type": "standard",
+      "title": "Contact details",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can be contacted through phone on +1 (845) 670 2889 or you can email me at laharika.ravula44\\@gmail.com."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Contact",
+      "dialog_node": "node_3_1562618364286",
+      "previous_sibling": "node_2_1562617586369"
+    },
+    {
+      "type": "standard",
+      "title": "what are you studying",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am doing my Masters at Marist college,  NY."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Masters",
+      "dialog_node": "node_1_1562763456086",
+      "previous_sibling": "node_10_1562679285815"
+    },
+    {
+      "type": "standard",
+      "title": "Have questions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please go ahead."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#HaveQues",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1562685158951",
+      "previous_sibling": "node_1_1562689939454"
+    },
+    {
+      "type": "standard",
+      "title": "Tell me about yourself",
+      "output": {
+        "generic": [
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "I am an MSIS graduate student at Marist College, NY. I am currently working part-time in the college IT department and previously I worked as a systems engineer at TATA Consultancy Services. My area of specialization is business analytics and I am equipped with technical skills like R, Python, and tableau. I also have hands-on experience working with Machine Learning algorithms, IBM SPSS modeler and have a few projects. And while working in TCS, I have worked on tools like MSSQL, HP ALM, GitHub, Eclipse IDE for a Banking project. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Yourself",
+      "dialog_node": "node_8_1562619833053",
+      "previous_sibling": "node_9_1562620116404"
+    },
+    {
+      "type": "standard",
+      "title": "General Greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How may I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Generalgreetings",
+      "dialog_node": "node_1_1562094063043",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Start Working",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am available to start working immediately."
+              },
+              {
+                "text": "I can start working as soon as possible."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#StartWorking",
+      "dialog_node": "node_2_1562617586369",
+      "previous_sibling": "node_1_1562617530522"
+    },
+    {
+      "type": "standard",
+      "title": "HighestEducation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am currently pursuing Master's in Information Systems in Business Analytics Concentration at Marist College, New York."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#HighestEducation",
+      "dialog_node": "node_3_1562095861313",
+      "previous_sibling": "node_8_1562619833053"
+    },
+    {
+      "type": "standard",
+      "title": "Resume",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link to <a  href=\"https://laharikaravularesume.000webhostapp.com/Resume_LaharikaRavula.pdf\">my resume</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Resume",
+      "dialog_node": "node_2_1562939313583",
+      "previous_sibling": "node_7_1562618654490"
+    },
+    {
+      "type": "standard",
+      "title": "Skills",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Using Python, I have worked on few machine learning algorithms like Multiple Linear Regression, Clusters, NLP and Decision tree. I also have experience on working with large databases. Currently I am working on developing a chatbot using IBM watson for the college Learning management system where the chatbot would answer basics questions fro m faculty, student or staff."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#skills",
+      "dialog_node": "node_9_1562620116404",
+      "previous_sibling": "node_2_1562094136019"
+    },
+    {
+      "type": "standard",
+      "title": "Need Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please contact me through phone at +1(845)-670-2889 or Email me at laharika.ravula44\\@gmail.com"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#help",
+      "dialog_node": "node_1_1562937721491",
+      "previous_sibling": "node_2_1562763806411"
+    },
+    {
+      "type": "standard",
+      "title": "GoodBye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for visiting my website. Have great day ahead!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1562618479814"
+      },
+      "conditions": "#goodBye",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1562618654490",
+      "previous_sibling": "node_1_1562937721491"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, This is Laharika. How are you doing today?"
+              },
+              {
+                "text": "Hi, I am Laharika. How are you doing?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "d1d0455b-d19a-485d-ae3a-a1cbdde93093",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
